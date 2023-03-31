@@ -11,6 +11,9 @@ body {
   color: var(--color-primary);
   background-color: #ffffff;
 }
+
+/* header */
+
 .start {
   background-color: #ffffff;
   color: var(--color-primery);
@@ -53,6 +56,9 @@ body {
 .contact:hover {
   color: var(--color-active-action);
 }
+
+/* body */
+
 .hero-section {
   background-color: var(--color-primery);
 }
@@ -102,6 +108,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/* footer */
+
 .bottom-section {
   background-color: var(--color-primery);
 }
