@@ -5,17 +5,16 @@
   --color-action: #4d5ae5;
   --color-active-action: #404bbf;
   --color-section: #f4f4fd;
+  --color-portfolio: #e5e5e5;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-secondary);
+  color: var(--color-primery);
   background-color: #ffffff;
 }
 
 /* header */
-.link {
-  text-decoration: none;
-}
+
 .contact {
   font-style: normal;
 }
@@ -27,13 +26,14 @@ body {
   line-height: 1.5;
 }
 .list {
-  list-style: none;
+  list-style-type: none;
 }
 .action {
   font-family: "Raleway", sans-serif;
   color: var(--color-action);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -56,6 +56,7 @@ body {
 .contact {
   text-decoration: none;
   color: var(--color-secondary);
+  letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -85,23 +86,32 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button:hover {
+  background-color: var(--color-active-action);
 }
 .title-text-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .main-text {
   color: var(--color-secondary);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .title-text {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-seaction {
   background-color: var(--color-section);
@@ -131,4 +141,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
