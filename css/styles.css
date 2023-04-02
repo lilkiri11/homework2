@@ -116,10 +116,12 @@ body {
 .team-seaction {
   background-color: var(--color-section);
 }
-.team-names {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-profession {
   color: var(--color-secondary);
