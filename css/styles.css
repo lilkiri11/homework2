@@ -52,6 +52,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.menu-head:focus {
+  color: var(--color-active-action);
+}
 .menu-head:hover {
   color: var(--color-active-action);
   text-decoration: underline var(--color-active-action);
@@ -65,6 +68,9 @@ body {
   line-height: 1.5;
 }
 .contact:hover {
+  color: var(--color-active-action);
+}
+.contact:focus {
   color: var(--color-active-action);
 }
 
@@ -95,10 +101,14 @@ body {
 .button:hover {
   background-color: var(--color-active-action);
 }
+.button:focus {
+  color: var(--color-active-action);
+}
 .title-text-list {
+    
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11
   letter-spacing: 0.02em;
 }
 .main-text {
