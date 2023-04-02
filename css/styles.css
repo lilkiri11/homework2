@@ -14,6 +14,9 @@ body {
 }
 
 /* header */
+.link {
+  text-decoration: none;
+}
 
 .contact {
   font-style: normal;
@@ -79,6 +82,7 @@ body {
   letter-spacing: 0.02em;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   border: none;
   color: var(--background-color);
   background-color: var(--color-action);
