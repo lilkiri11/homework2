@@ -139,6 +139,7 @@ body {
   letter-spacing: 0.02em;
 }
 .title-text {
+  color: var(--color-primery);
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
