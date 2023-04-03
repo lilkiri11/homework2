@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-primery);
+  color: var(--color-secondary);
   background-color: #ffffff;
 }
 
@@ -104,6 +104,27 @@ body {
 .button:focus {
   background-color: var(--color-active-action);
 }
+
+.button-list {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: var(--color-action);
+  background-color: var(--color-section);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-list:hover {
+  color: var(--background-color);
+  background-color: var(--color-active-action);
+}
+.button-list:focus {
+  color: var(--background-color);
+  background-color: var(--color-active-action);
+}
+
 .title-text-list {
   font-weight: 500;
   font-size: 20px;
