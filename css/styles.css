@@ -126,6 +126,7 @@ body {
 }
 
 .title-text-list {
+  color: var(--color-primery);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
