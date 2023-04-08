@@ -12,6 +12,22 @@ body {
   color: var(--color-secondary);
   background-color: #ffffff;
 }
+/* reset start */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h1,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+/* reset end */
 
 /* header */
 .link {
@@ -24,12 +40,10 @@ body {
 .start {
   background-color: #ffffff;
   color: var(--color-primery);
+  width: 1440px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-}
-.list {
-  list-style-type: none;
 }
 .action {
   font-family: "Raleway", sans-serif;
@@ -86,6 +100,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -185,4 +200,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
