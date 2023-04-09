@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
 :root {
   --background-color: #ffffff;
   --color-primery: #2e2f42;
@@ -12,12 +20,23 @@ body {
   color: var(--color-secondary);
   background-color: #ffffff;
 }
-/* reset start */
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid palevioletred;
+  outline-offset: -2px;
 }
+
+.header-container {
+  display: flex;
+}
+/* reset start */
+
 h1,
 h2,
 h1,
@@ -33,19 +52,38 @@ img {
 .link {
   text-decoration: none;
 }
-
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .contact {
   font-style: normal;
 }
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #ffffff;
   color: var(--color-primery);
-  width: 1440px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+}
+
 .action {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   color: var(--color-action);
   letter-spacing: 0.03em;
@@ -55,10 +93,18 @@ img {
   font-size: 18px;
   line-height: 1.17;
 }
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .span-color {
   color: var(--color-primery);
 }
 .menu-head {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--color-primery);
@@ -74,6 +120,9 @@ img {
   text-decoration: underline var(--color-active-action);
 }
 .contact {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-decoration: none;
   color: var(--color-secondary);
   letter-spacing: 0.02em;
